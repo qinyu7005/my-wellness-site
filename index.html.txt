@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Helvetic Longevity Alliance</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+
+function switchLang(lang){
+
+document.querySelectorAll("[data-lang]").forEach(el=>{
+el.style.display="none"
+})
+
+document.querySelectorAll("[data-lang="+lang+"]").forEach(el=>{
+el.style.display="block"
+})
+
+}
+
+</script>
+
+</head>
+
+<body class="bg-gray-50 text-gray-700 font-sans">
+
+<!-- NAV -->
+
+<header class="bg-white shadow sticky top-0">
+
+<div class="max-w-7xl mx-auto flex justify-between px-6 py-4">
+
+<h1 class="text-xl font-semibold text-[#003366]">
+Helvetic Longevity Alliance
+</h1>
+
+<div class="space-x-3 text-sm">
+
+<button onclick="switchLang('zh')">中文</button>
+<button onclick="switchLang('en')">EN</button>
+<button onclick="switchLang('de')">DE</button>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- HERO -->
+
+<section class="bg-[#003366] text-white py-28 text-center">
+
+<h1 class="text-4xl font-bold mb-6">
+
+<span data-lang="zh">瑞士长寿医疗联盟</span>
+<span data-lang="en" style="display:none">Helvetic Longevity Alliance</span>
+<span data-lang="de" style="display:none">Helvetische Longevity Allianz</span>
+
+</h1>
+
+<p class="text-xl">
+
+<span data-lang="zh">
+连接瑞士顶级医疗与康养资源
+</span>
+
+<span data-lang="en" style="display:none">
+Connecting Switzerland's Leading Medical & Longevity Institutions
+</span>
+
+<span data-lang="de" style="display:none">
+Netzwerk führender Schweizer Medizin- und Longevity-Institutionen
+</span>
+
+</p>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="py-20">
+
+<div class="max-w-6xl mx-auto text-center">
+
+<h2 class="text-3xl font-bold text-[#003366] mb-10">
+
+<span data-lang="zh">核心服务</span>
+<span data-lang="en" style="display:none">Core Services</span>
+<span data-lang="de" style="display:none">Leistungen</span>
+
+</h2>
+
+<div class="grid md:grid-cols-3 gap-10">
+
+<div class="bg-white p-8 shadow rounded-xl">
+
+<h3 class="font-semibold text-[#003366]">Executive Health Check</h3>
+
+<p>
+瑞士顶级医学体检与健康评估
+</p>
+
+</div>
+
+<div class="bg-white p-8 shadow rounded-xl">
+
+<h3 class="font-semibold text-[#003366]">Longevity Medicine</h3>
+
+<p>
+长寿医学与抗衰疗程
+</p>
+
+</div>
+
+<div class="bg-white p-8 shadow rounded-xl">
+
+<h3 class="font-semibold text-[#003366]">Rehabilitation</h3>
+
+<p>
+术后康复与温泉疗养
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- MEDICAL PARTNERS -->
+
+<section class="bg-white py-20">
+
+<div class="max-w-7xl mx-auto">
+
+<h2 class="text-3xl font-bold text-center text-[#003366] mb-14">
+
+Swiss Medical Partners
+
+</h2>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+<div class="bg-gray-50 p-6 rounded-xl">
+
+<img src="images/clinique.jpg" class="rounded-lg mb-4">
+
+<h3 class="font-semibold text-[#003366]">
+
+[Clinique La Prairie](chatgpt://generic-entity?number=1)
+
+</h3>
+
+<p class="text-sm">
+全球抗衰老医学先驱机构
+</p>
+
+<iframe width="100%" height="200"
+src="https://www.youtube.com/embed/VIDEOID">
+</iframe>
+
+</div>
+
+<div class="bg-gray-50 p-6 rounded-xl">
+
+<img src="images/hirslanden.jpg" class="rounded-lg mb-4">
+
+<h3 class="font-semibold text-[#003366]">
+
+[Hirslanden Private Hospital Group](chatgpt://generic-entity?number=2)
+
+</h3>
+
+<p class="text-sm">
+瑞士最大私立医疗网络之一
+</p>
+
+</div>
+
+<div class="bg-gray-50 p-6 rounded-xl">
+
+<img src="images/waldhotel.jpg" class="rounded-lg mb-4">
+
+<h3 class="font-semibold text-[#003366]">
+
+[Bürgenstock Resort](chatgpt://generic-entity?number=3)
+
+</h3>
+
+<p class="text-sm">
+阿尔卑斯医疗康养酒店
+</p>
+
+</div>
+
+<div class="bg-gray-50 p-6 rounded-xl">
+
+<img src="images/badragaz.jpg" class="rounded-lg mb-4">
+
+<h3 class="font-semibold text-[#003366]">
+
+[Grand Resort Bad Ragaz](chatgpt://generic-entity?number=4)
+
+</h3>
+
+<p class="text-sm">
+欧洲顶级温泉康复中心
+</p>
+
+</div>
+
+<div class="bg-gray-50 p-6 rounded-xl">
+
+<img src="images/mammern.jpg" class="rounded-lg mb-4">
+
+<h3 class="font-semibold text-[#003366]">
+
+[Klinik Schloss Mammern](chatgpt://generic-entity?number=5)
+
+</h3>
+
+<p class="text-sm">
+博登湖畔顶级私人康复诊所
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PROCESS -->
+
+<section class="py-20 text-center">
+
+<h2 class="text-3xl font-bold text-[#003366] mb-10">
+
+服务流程
+
+</h2>
+
+<div class="grid md:grid-cols-5 gap-6 max-w-5xl mx-auto">
+
+<div>咨询评估</div>
+<div>体检检测</div>
+<div>医疗方案</div>
+<div>瑞士治疗</div>
+<div>长期管理</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="bg-[#003366] text-white py-20 text-center">
+
+<h2 class="text-3xl font-bold mb-6">
+
+预约私人健康顾问
+
+</h2>
+
+<div class="flex justify-center gap-6">
+
+<button class="bg-white text-[#003366] px-8 py-3 rounded-lg">
+
+WeChat
+
+</button>
+
+<button class="bg-white text-[#003366] px-8 py-3 rounded-lg">
+
+WhatsApp
+
+</button>
+
+</div>
+
+</section>
+
+<footer class="bg-gray-900 text-gray-400 text-center py-6">
+
+© Helvetic Longevity Alliance
+
+</footer>
+
+</body>
+
+</html>
